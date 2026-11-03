@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #183a5a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background-color: #10283e;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+main {
+    margin: 20px;
+}
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+}
+
+h2 {
+    color: #183a5a;
+    border-bottom: 2px solid #183a5a;
+    padding-bottom: 8px;
+}
+
+.product {
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.product img {
+    width: 200px;
+    height: 150px;
+}
+
+.product a {
+    background-color: #183a5a;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+li {
+    margin: 8px;
+}
+
+form {
+    width: 90%;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #999999;
+}
+
+input[type="submit"] {
+    background-color: #183a5a;
+    color: white;
+    width: auto;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #10283e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
